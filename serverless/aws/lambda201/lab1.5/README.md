@@ -294,6 +294,12 @@ We are going to add dynamic functionality to our static site using Lambda functi
 
     - Now that we have the support functions we can update our `github-webhook` code with the `add_comments` functionality. If we had done it earlier and a commit was made to our blog it would error out. Now we have everything it needs to run even if there are no comments.
 
+        In the `lambda` folder, run:
+
+        ```bash
+        pip3 install pygit2 --force --upgrade --target .
+        ```
+
         ```sh
         rm function.zip && zip -r function.zip .
         ```

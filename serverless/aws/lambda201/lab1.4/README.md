@@ -145,6 +145,12 @@ Now that we are getting into more advanced usage, the structure of our `sources`
 
 3. ### Zip your function up and **update** the webhook you created in lab 1.3
 
+    In the `lambda` folder, run:
+
+    ```bash
+    pip3 install pygit2 --force --upgrade --target .
+    ```
+
     ```sh
     rm function.zip && zip -r function.zip .
     ```
