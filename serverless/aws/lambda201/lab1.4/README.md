@@ -147,10 +147,6 @@ Now that we are getting into more advanced usage, the structure of our `sources`
 
     In the `lambda` folder, run:
 
-    ```bash
-    pip3 install pygit2 --force --upgrade --target .
-    ```
-
     ```sh
     rm function.zip && zip -r function.zip .
     ```

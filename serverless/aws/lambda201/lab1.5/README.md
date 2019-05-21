@@ -303,10 +303,6 @@ We are going to add dynamic functionality to our static site using Lambda functi
 
         In the `lambda` folder, run:
 
-        ```bash
-        pip3 install pygit2 --force --upgrade --target .
-        ```
-
         ```sh
         rm function.zip && zip -r function.zip .
         ```
