@@ -57,7 +57,7 @@
 
                 $.ajax({
                     type: "POST",
-                    url: '{{ .Site.Params.lambdaComments.endpoint  | safeHTML }}',
+                    url: '{{ .Site.Params.lambdaComments.endpoint | safeJS }}'.replace('\/', '/'),
                     contentType: 'application/json',
                     data: JSON.stringify({
                         'name': name,
