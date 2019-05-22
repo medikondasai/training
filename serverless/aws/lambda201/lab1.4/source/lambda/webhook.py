@@ -13,7 +13,7 @@ import subprocess
 logger = logging.getLogger()
 logger.setLevel(logging.INFO)
 logger.handlers[0].setFormatter(logging.Formatter('[%(asctime)s][%(levelname)s] %(message)s'))
-
+#testing
 # If true the function will delete all files at the end of each run
 cleanup = False
 
